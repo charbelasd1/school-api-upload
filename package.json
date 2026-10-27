@@ -1,0 +1,24 @@
+{
+  "name": "school-api",
+  "version": "1.0.0",
+  "description": "CSC456 Project 1 - School Management Web API (Express + MongoDB/Mongoose + SQLite/Sequelize)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "keywords": ["express", "mongoose", "sequelize", "sqlite", "rest-api"],
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
